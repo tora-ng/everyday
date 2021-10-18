@@ -30,3 +30,13 @@ public class RectangleTest {
 	}
 
 }
+
+Rectangle 클래스 작성
+
+int 값 두개 입력
+
+출력
+가로 세로 입력 하세요.
+100 
+200
+넓이는 20000 입니다.
