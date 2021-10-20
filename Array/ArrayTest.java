@@ -1,21 +1,29 @@
-
+package Array_10_20;
+class Box{
+	
+	private String conts;
+	
+	Box(String conts){
+		this.conts = conts;
+		}
+	
+	public String toString() {
+		return conts;
+	}
+}
 public class ArrayTest {
 
 	public static void main(String[] args) {
-		//길이가 5인 int형 1차원 배열의 생성
-		int[] ar1 = new int[5]; //20byte
+		Box[] ar = new Box[3];
 		
-		//길이가 5인 double형 1차원 배열의 생성
-		double[] ar2 = new double[7]; //56byte
+		ar[0] = new Box("First");
+		ar[1] = new Box("Second");
+		ar[2] = new Box("Third");
 		
-		//배열의 참조변수와 인스턴스 생성 분리
-		float[] ar3;
-		ar3 = new float[9]; //36byte
-		
-		//배열의 인스턴스 변수 접근
-		System.out.println("배열 ar1의 길이: " + ar1.length); //함수는 str.length();이렇게 쓰는데 얘는 함수가 아닌 변수이기 때문에 ar1.length 이렇게 쓴다
-		System.out.println("배열 ar2의 길이: " + ar2.length);
-		System.out.println("배열 ar3의 길이: " + ar3.length);
+		System.out.println(ar[0]);
+		System.out.println(ar[1]);
+		System.out.println(ar[2]);
+
 	}
 
 }
