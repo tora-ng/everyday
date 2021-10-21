@@ -43,7 +43,7 @@ class IPTV extends ColorTV {
 	}
 
 	public void printProperty() {
-		System.out.println(this.ip + "주소");
+		System.out.print(this.ip + "주소");
 		super.printProperty(); // 이걸 뿌리면 color를 문제없이 해결할 수 있다.
 	}
 }
