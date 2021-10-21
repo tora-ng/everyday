@@ -1,3 +1,5 @@
+<< 선생님이 짠 코드 >>
+
 //package inheritance;
 //
 //class TV1 {
