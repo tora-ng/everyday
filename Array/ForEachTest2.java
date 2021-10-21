@@ -41,3 +41,5 @@ public class ForEachTest2 {
 	}
 
 }
+
+//505을 만나면 그 문구를 출력하는 
